@@ -2,7 +2,7 @@ import React from 'react'
 import NoteContext from './NoteContext'
 import { useState } from 'react'
 const NoteState=(props)=> {
-    const host="http://localhost:5000";
+    const host="http://i-notebook-e3zg.vercel.app";
     const notesInitial=[]
     const [notes,setNotes]=useState(notesInitial);
     //Fetching Notes
